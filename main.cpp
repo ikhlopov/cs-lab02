@@ -10,5 +10,9 @@ int main()
     cout << "A + B = " << a + b << '\n'
         << "A - B = " << a - b << '\n'
         << "A * B = " << a * b << '\n'
-        << "A / B = " << a / b << '\n' ;
+        << "A / B = " << a / b << '\n';
+
+    cout << "Max(A,B) = ";
+    if (a>b) cout << a << '\n';
+    else cout << b << '\n';
 }
