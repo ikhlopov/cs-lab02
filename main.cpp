@@ -5,12 +5,12 @@ using namespace std;
 int main()
 {
     cout << "Enter A and B: ";
+    //comment
     double a, b;
     cin >> a >> b;
     cout << "A + B = " << a + b << '\n'
         << "A - B = " << a - b << '\n'
         << "A * B = " << a * b << '\n'
-
         << "A / B = " << a / b << '\n';
 
     cout << "Max(A,B) = ";
