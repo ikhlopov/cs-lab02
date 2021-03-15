@@ -6,6 +6,7 @@ int main()
 {
     cout << "Enter A and B: ";
     //comment
+    // second comment
     double a, b;
     cin >> a >> b;
     cout << "A + B = " << a + b << '\n'
